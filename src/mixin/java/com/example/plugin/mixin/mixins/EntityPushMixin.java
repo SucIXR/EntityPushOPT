@@ -1,6 +1,6 @@
 package com.example.plugin.mixin.mixins;
 
-import com.example.plugin.mixin.utils.utils.SocialBubbleEngine;
+import com.example.plugin.mixin.utils.SocialBubbleEngine;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;
