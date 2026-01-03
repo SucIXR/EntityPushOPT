@@ -5,9 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "target": "@env(PREINIT)",
   "mixins": [
-    "TemplateBridgeMixin",
-    "TemplateConditionalMixin",
-    "TemplateMixin"
+    "EntityPushMixin"
   ],
   "plugin": "com.example.plugin.mixin.TemplateMixinConfigPlugin"
 }
