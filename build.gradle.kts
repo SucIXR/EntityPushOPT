@@ -22,13 +22,13 @@ version = "1.0.0-SNAPSHOT"
 val pluginJson = leavesPluginJson {
     // INFO: name and version defaults to project name and version
     // TODO: change this to your main class
-    main = "com.example.plugin.TemplatePlugin"
+    main = "com.example.plugin.EntityPushOPTPlugin"
     // TODO: change this to your name
-    authors.add("YourName")
+    authors.add("SucIXR")
     // TODO: change this to your plugin description
     description = "leaves template plugin"
     // TODO: support or not is decided by you
-    foliaSupported = false
+    foliaSupported = true
     apiVersion = libs.versions.leavesApi.extractMCVersion()
     // TODO: if your logic can work without mixin, can use `features.optional.add("mixin")`
     features.required.add("mixin")
