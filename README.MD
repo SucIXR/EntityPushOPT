@@ -1,10 +1,14 @@
 # EntityPushOPT
 
+**当前仅支持Leaves/Luminol等支持Mixin的插件端(只在1.21.8测试过)**
+
+你需要在服务器启动脚本中加入 -Dleavesclip.enable.mixin=true，例如，java -Dleavesclip.enable.mixin=true -jar 你的服务器核心.jar
+
+详细用法请见
+
 一个简单高效的生物挤压优化插件，原为Kitin核心内置
 
 对带宽占用降低极其有效,例如动物农场,赤石旋转动物繁殖机,村民繁殖机等,而且完全没有进行降频,看上去和原版一样
-
-**当前仅支持Leaves/Luminol等支持Mixin的插件端(只在1.21.8测试过)
 
 ## 效果
 
